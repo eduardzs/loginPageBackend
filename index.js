@@ -41,4 +41,4 @@ app.post('/validarToken', async(request, response) => {
     let validartk = await validarToken(request.body.token)
     response.json({validartk})
 })
-app.listen(3350, () => { console.log("PORT: 3350") })
+app.listen(process.env.PORT?process.env.PORT:3350, () => { console.log("PORT: 3350") })
