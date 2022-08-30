@@ -29,7 +29,7 @@ const validarToken = async (token) => {
 }
 
 app.get('/', async (request, response) => {
-    response.send('Hello World')
+    response.send('Bem Vindo!')
 })
 app.post('/fazerLogin', async (request, response) => {
     console.log(request.body)
