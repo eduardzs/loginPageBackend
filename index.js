@@ -42,4 +42,4 @@ app.post('/validarToken', async(request, response) => {
     response.json({validartk})
 })
 const PORT = process.env.PORT||8080
-app.listen(PORT, () => { console.log("PORT: 3350") })
+app.listen(PORT, () => { console.log("PORT: "+ PORT) })

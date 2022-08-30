@@ -1,10 +1,9 @@
-const fullFile = './repositorio/datadb.json'
 import fs from 'fs/promises';
+import bancoDados from './datadb.js'
 
 const db = async () => {
   try {
-    const data = await fs.readFile(fullFile, { encoding: 'utf8' });
-    return JSON.parse(data);
+    return bancoDados
   } catch (err) {
     console.log(err);
   }
