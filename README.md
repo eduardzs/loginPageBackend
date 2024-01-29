@@ -1,4 +1,4 @@
-<h2>Backend Login Page</h2>
+# Backend Login Page
 
 <div style="width: 100%;" align="center">
     <img src="./img/teste.gif" alt="Gif do Projeto"><br><br>
